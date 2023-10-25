@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+    --dm: 'DM Serif Display', serif;
+    --karla: 'Karla', sans-serif;
+    --Dark_Violet: hsl(256, 26%, 20%);
+    --Grayish_Blue: hsl(216, 30%, 68%);
+    --Very_Dark_Violet: hsl(270, 9%, 17%);
+    --Dark_Grayish_Violet: hsl(273, 4%, 51%);
+    --Very_Light_Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: var(--karla);
+    min-width: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 10rem;
+}
+
+.header img {
+    cursor: pointer;
+}
+
+.nav {
+    padding-block: 1rem;
+}
+
+.nav a {
+    margin-inline: .7rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--Dark_Grayish_Violet);
+    transition: .3s ease;
+}
+
+.nav a:hover {
+    color: var(--Dark_Violet);
+}
+
+#box {
+    color: var(--Dark_Violet);
+    border: 1px solid var(--Dark_Violet);
+    padding: .7rem 1.8rem;
+    cursor: pointer;
+}
+
+#box:hover {
+    color: var(--Very_Light_Gray);
+    background-color: var(--Dark_Violet);
+    border: 1px solid var(--Dark_Violet);
+}
