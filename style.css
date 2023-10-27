@@ -70,4 +70,7 @@ body {
 .hero {
     display: flex;
     align-items: center;
+    padding: 1rem 10rem;
+    justify-content: space-between;
+    gap: 3rem;
 }
