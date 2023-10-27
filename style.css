@@ -67,10 +67,11 @@ body {
     border: 1px solid var(--Dark_Violet);
 }
 
+
 .hero {
     display: flex;
     align-items: center;
-    padding: 1rem 10rem;
+    padding: 2rem 10rem;
     justify-content: space-between;
     gap: 3rem;
 }
