@@ -67,11 +67,21 @@ body {
     border: 1px solid var(--Dark_Violet);
 }
 
-
 .hero {
     display: flex;
     align-items: center;
     padding: 2rem 10rem;
     justify-content: space-between;
     gap: 3rem;
+    background: url('./images/bg-pattern-intro-right-desktop.svg') no-repeat center right/contain var(--Dark_Violet);
+    color: #fff;
+    min-height: 80vh;
+}
+
+.hero_info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: start;
+    width: 50%;
 }
