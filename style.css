@@ -127,7 +127,7 @@ h1 {
     color: var(--Dark_Violet);
 }
 
-.hero_info p {
+p {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -137,4 +137,40 @@ h1 {
     position: absolute;
     right: 10rem;
     z-index: 3;
+}
+
+.feature {
+    padding: 8rem 10rem;
+}
+
+.feature_info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.feature_grids {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-family: var(--dm);
+    font-size: 28px;
+    color: var(--Dark_Violet);
+    margin-top: 1rem;
+}
+
+.feature_grid {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.feature_grid p {
+    color: var(--Dark_Grayish_Violet);
 }
