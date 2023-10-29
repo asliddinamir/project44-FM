@@ -147,7 +147,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 .feature_grids {
@@ -173,4 +173,18 @@ h2 {
 
 .feature_grid p {
     color: var(--Dark_Grayish_Violet);
+}
+
+.feature_footer {
+    background: url('./images/bg-pattern-how-we-work-desktop.svg') no-repeat center right/contain var(--Dark_Violet);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 6rem 4rem 6rem;
+}
+
+.feature_footer h1 {
+    font-size: 56px;
+    color: #fff;
+    width: 55%;
 }
