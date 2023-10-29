@@ -22,6 +22,11 @@ body {
     min-width: 100vh;
 }
 
+.main {
+    min-height: 100vh;
+    z-index: 1;
+}
+
 
 .header {
     display: flex;
@@ -75,7 +80,9 @@ body {
     gap: 3rem;
     background: url('./images/bg-pattern-intro-right-desktop.svg') no-repeat center right/contain var(--Dark_Violet);
     color: #fff;
-    min-height: 80vh;
+    height: 80vh;
+    margin-bottom: 10rem;
+    z-index: 2;
 }
 
 .hero_info {
@@ -83,5 +90,27 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     align-items: start;
-    width: 50%;
+    width: 48%;
+    overflow: hidden;
+}
+
+.hero_info h1 {
+    font-family: var(--dm);
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 120%;
+    margin-block: 2rem .5rem;
+    overflow: hidden;
+}
+
+.hero_info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.heroImg {
+    transform: translateY(18vh);
+    position: absolute;
+    right: 10rem;
+    z-index: 3;
 }
