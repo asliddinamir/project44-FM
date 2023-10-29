@@ -94,6 +94,10 @@ body {
     overflow: hidden;
 }
 
+.heroHr {
+    width: 160px;
+}
+
 .hero_info h1 {
     font-family: var(--dm);
     font-size: 72px;
@@ -101,6 +105,26 @@ body {
     line-height: 120%;
     margin-block: 2rem .5rem;
     overflow: hidden;
+}
+
+.heroBtn {
+    background: transparent;
+    color: #fff;
+    border: 1px solid var(--Dark_Violet);
+    padding: .7rem 1.8rem;
+    cursor: pointer;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    transition: .3s ease;
+}
+
+.heroBtn:hover {
+    background-color: #fff;
+    color: var(--Dark_Violet);
 }
 
 .hero_info p {
