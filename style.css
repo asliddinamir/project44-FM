@@ -98,7 +98,7 @@ body {
     width: 160px;
 }
 
-.hero_info h1 {
+h1 {
     font-family: var(--dm);
     font-size: 72px;
     font-weight: 100;
