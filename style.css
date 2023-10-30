@@ -188,3 +188,71 @@ h2 {
     color: #fff;
     width: 55%;
 }
+
+.footer {
+    background: url('./images/bg-pattern-footer-desktop.svg') no-repeat top left var(--Very_Light_Gray);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 10rem .5rem 10rem;
+}
+
+.footer_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_icons img {
+    padding-inline: .4rem;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.social_icons img:hover {
+    filter: brightness(0);
+}
+
+.footer_bodies {
+    display: flex;
+}
+
+.footer_body {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 1rem;
+}
+
+.footer_body a {
+    color: var(--Dark_Grayish_Violet);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+.footer_body span {
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    transition: .3s ease;
+}
+
+.footer_body span:hover {
+    text-decoration: underline;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: crimson;
+    text-decoration: none;
+}
