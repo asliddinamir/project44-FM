@@ -80,7 +80,7 @@ body {
     gap: 3rem;
     background: url('./images/bg-pattern-intro-right-desktop.svg') no-repeat center right/contain var(--Dark_Violet);
     color: #fff;
-    height: 80vh;
+    min-height: 80vh;
     margin-bottom: 10rem;
     z-index: 2;
 }
@@ -255,4 +255,41 @@ h2 {
 .attribution a {
     color: crimson;
     text-decoration: none;
+}
+
+@media(max-width:1400px) {
+    .header {
+        padding: 1rem 3rem;
+    }
+
+    .hero {
+        padding: 2rem 3rem;
+        gap: 1.5rem;
+    }
+
+    .feature {
+        padding: 6rem 3rem;
+    }
+
+    .feature_footer {
+        padding: 3rem 3rem 4rem 3rem;
+    }
+
+    .footer {
+        padding: 5rem 3rem .5rem 3rem;
+    }
+
+    .heroImg {
+        transform: translateY(0);
+        position: relative;
+        right: 0;
+    }
+
+    .hero_info {
+        width: 60%;
+    }
+
+    .hero_info h1 {
+        font-size: 55px;
+    }
 }
